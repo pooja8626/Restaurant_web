@@ -1,0 +1,151 @@
+
+.home .head .heading{
+    background-color:  #241f1c ;
+    color: #e7dac7;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid #937047;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    color: #e7dac7;
+}
+
+/* .head{ */
+    /* background-image: url('E:/REACT APPS/restaurant/src/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color:  #FEE715FF ; */
+    /* background-color: #E94B3CFF; */
+    /* background-color: #CFCAA8; */
+
+/* } */
+
+.head-2{
+    background-color: #0A0A0A;
+}
+
+/* 
+.hometop{
+    height: 75vh;
+}
+
+ .headnext{
+    background-color: #0A0A0A;
+    height: 40vh;
+    padding: 20px;
+}
+.headnext p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.headnext .image{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+} */
+
+
+.head-2 .card{
+    width: 100%;
+    height: 300px;
+    max-width: 200px;
+    border-radius: 8px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(160deg,#8035f0 0%,#3bd9d9 100%);
+}
+
+.head-2 .card, .card *{
+    box-sizing: border-box;
+    transition: 400ms;
+}
+
+.head-2 .card-img img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.head-2 .card .card-title{
+    text-align: center;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 400px;
+}
+
+.head-2 .card .card-content{
+    position: absolute;
+    color: black;
+    right: 32px;
+    bottom: 48px;
+    left: 32px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.75rem;
+    opacity: 0;
+}
+
+.head-2 .card:hover .card-img{
+    transform: translateY(-48px);
+}
+
+.head-2 .card:hover .card-img img{
+    transform: translate(-16px,-42px) rotate(-16deg) scale(1.4);
+}
+
+.head-2 .card:hover .card-content{
+    opacity: 1;
+    color: #0A0A0A;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .photos .gallery{
+    width: 100%;
+    margin: 10px;
+    height: 50vmin;
+    display: flex;
+    gap: 5px;
+}
+
+.home .photos .gallery img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+
+.home .photos .gallery img:hover{
+    flex: 4;
+}
+
+.endpart h2{
+    font-size: 1.2rem;
+}
